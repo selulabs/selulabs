@@ -105,7 +105,7 @@ function Services(): JSX.Element { return <><PageHero eyebrow="Services" title="
 
 function IndustryImage({ industryId }: { industryId: string }): JSX.Element | null {
   if (industryId === 'healthcare') {
-    return <img className="industry-image" src="/assets/images/healthcare.jpeg" alt="Doctor speaking with a patient in a clinic" loading="lazy" />;
+    return <img className="industry-image" src="/assets/images/healthcare-ai-solutions.jpeg" alt="Healthcare professionals providing patient care" loading="lazy" />;
   }
   if (industryId === 'law-firms') {
     return <img className="industry-image" src="/assets/images/law.jpeg" alt="Legal team collaborating in an office" loading="lazy" />;
